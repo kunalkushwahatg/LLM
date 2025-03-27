@@ -1,0 +1,26 @@
+  0%|                                                                                                                                                                   | 0/3 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "/home/kunalkushwahatg/Research/src/pretraining/train.py", line 83, in <module>
+    trainer.train()
+  File "/home/kunalkushwahatg/anaconda3/envs/research/lib/python3.10/site-packages/transformers/trainer.py", line 1885, in train
+    return inner_training_loop(
+  File "/home/kunalkushwahatg/anaconda3/envs/research/lib/python3.10/site-packages/transformers/trainer.py", line 2178, in _inner_training_loop
+    for step, inputs in enumerate(epoch_iterator):
+  File "/home/kunalkushwahatg/anaconda3/envs/research/lib/python3.10/site-packages/accelerate/data_loader.py", line 552, in __iter__
+    current_batch = next(dataloader_iter)
+  File "/home/kunalkushwahatg/anaconda3/envs/research/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 631, in __next__
+    data = self._next_data()
+  File "/home/kunalkushwahatg/anaconda3/envs/research/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 675, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/kunalkushwahatg/anaconda3/envs/research/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 54, in fetch
+    return self.collate_fn(data)
+  File "/home/kunalkushwahatg/anaconda3/envs/research/lib/python3.10/site-packages/transformers/data/data_collator.py", line 45, in __call__
+    return self.torch_call(features)
+  File "/home/kunalkushwahatg/anaconda3/envs/research/lib/python3.10/site-packages/transformers/data/data_collator.py", line 796, in torch_call
+    batch = pad_without_fast_tokenizer_warning(
+  File "/home/kunalkushwahatg/anaconda3/envs/research/lib/python3.10/site-packages/transformers/data/data_collator.py", line 66, in pad_without_fast_tokenizer_warning
+    padded = tokenizer.pad(*pad_args, **pad_kwargs)
+  File "/home/kunalkushwahatg/anaconda3/envs/research/lib/python3.10/site-packages/transformers/tokenization_utils_base.py", line 3340, in pad
+    padding_strategy, _, max_length, _ = self._get_padding_truncation_strategies(
+  File "/home/kunalkushwahatg/anaconda3/envs/research/lib/python3.10/site-packages/transformers/tokenization_utils_base.py", line 2788, in _get_padding_truncation_strategies
+    raise ValueError(
+ValueError: Asking to pad but the tokenizer does not have a padding token. Please select a token to use as `pad_token` `(tokenizer.pad_token = tokenizer.eos_token e.g.)` or add a new pad token via `tokenizer.add_special_tokens({'pad_token': '[PAD]'})`.

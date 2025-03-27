@@ -1,0 +1,18 @@
+{"time":"2025-01-10T18:22:06.636900105+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"/home/kunalkushwahatg/Research/wandb/run-20250110_182202-k0rwrc9z/logs/debug-core.log"}
+{"time":"2025-01-10T18:22:07.315134552+05:30","level":"INFO","msg":"created new stream","id":"k0rwrc9z"}
+{"time":"2025-01-10T18:22:07.315547608+05:30","level":"INFO","msg":"stream: started","id":"k0rwrc9z"}
+{"time":"2025-01-10T18:22:07.315623883+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"k0rwrc9z"}
+{"time":"2025-01-10T18:22:07.315867017+05:30","level":"INFO","msg":"handler: started","stream_id":"k0rwrc9z"}
+{"time":"2025-01-10T18:22:07.339465622+05:30","level":"INFO","msg":"sender: started","stream_id":"k0rwrc9z"}
+{"time":"2025-01-10T18:22:08.237757079+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-10T18:28:54.585128579+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/kunalkushwahaai/huggingface/k0rwrc9z/file_stream\": dial tcp 192.0.2.1:443: connect: connection timed out"}
+{"time":"2025-01-10T18:33:12.632873868+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/kunalkushwahaai/huggingface/k0rwrc9z/file_stream\": dial tcp 192.0.2.1:443: connect: connection timed out"}
+{"time":"2025-01-10T18:34:20.771914469+05:30","level":"INFO","msg":"stream: closing","id":"k0rwrc9z"}
+{"time":"2025-01-10T18:34:20.771941127+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-10T18:34:20.772425516+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-10T18:34:22.821565139+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-10T18:35:27.801350763+05:30","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/kunalkushwahaai/huggingface/k0rwrc9z/file_stream\": dial tcp 192.0.2.1:443: connect: connection timed out"}
+{"time":"2025-01-10T18:35:34.26032862+05:30","level":"INFO","msg":"handler: closed","stream_id":"k0rwrc9z"}
+{"time":"2025-01-10T18:35:34.26042878+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"k0rwrc9z"}
+{"time":"2025-01-10T18:35:34.260442201+05:30","level":"INFO","msg":"sender: closed","stream_id":"k0rwrc9z"}
+{"time":"2025-01-10T18:35:34.2606176+05:30","level":"INFO","msg":"stream: closed","id":"k0rwrc9z"}

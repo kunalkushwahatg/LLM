@@ -1,0 +1,2 @@
+100%|███████████████████████████████████████████| 14/14 [00:53<00:00,  3.82s/it]
+{'train_runtime': 67.2891, 'train_samples_per_second': 1.65, 'train_steps_per_second': 0.208, 'train_loss': 3.91794068472726, 'epoch': 1.0}

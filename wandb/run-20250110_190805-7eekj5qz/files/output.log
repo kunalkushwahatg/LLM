@@ -1,0 +1,26 @@
+ 36%|█████████████████████████████████████████████████████▉                                                                                                 | 200/560 [02:48<04:40,  1.28it/s]Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.███████████████████████████████████████████████████████████████████████████████████████| 62/62 [00:13<00:00,  4.46it/s]
+{'eval_loss': 7.840450763702393, 'eval_runtime': 14.0344, 'eval_samples_per_second': 35.342, 'eval_steps_per_second': 4.418, 'epoch': 0.36}
+
+### Text Generation for Verification ###
+Prompt: Once upon a time,
+Generated: Once upon a time,ddddddddddddddddddddddddddddddddddddddddddddd
+
+Prompt: The future of AI
+Generated: The future of AIdddddddddddddddddddddddddddddddddddddddddddddd
+Setting `pad_token_id` to `eos_token_id`:50256 for open-end generation.
+
+Prompt: In a small village,
+Generated: In a small village,ddddddddddddddddddddddddddddddddddddddddddddd
+ 45%|███████████████████████████████████████████████████████████████████▍                                                                                   | 250/560 [03:28<04:01,  1.28it/s]Traceback (most recent call last):
+  File "/home/kunalkushwahatg/Research/src/pretraining/train.py", line 93, in <module>                                                                                                        
+    trainer.train()
+  File "/home/kunalkushwahatg/anaconda3/envs/research/lib/python3.10/site-packages/transformers/trainer.py", line 1885, in train
+    return inner_training_loop(
+  File "/home/kunalkushwahatg/anaconda3/envs/research/lib/python3.10/site-packages/transformers/trainer.py", line 2216, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+  File "/home/kunalkushwahatg/anaconda3/envs/research/lib/python3.10/site-packages/transformers/trainer.py", line 3241, in training_step
+    torch.cuda.empty_cache()
+  File "/home/kunalkushwahatg/anaconda3/envs/research/lib/python3.10/site-packages/torch/cuda/memory.py", line 162, in empty_cache
+    torch._C._cuda_emptyCache()
+KeyboardInterrupt

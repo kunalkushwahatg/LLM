@@ -1,0 +1,26 @@
+  0%|▎                                                                                                                                                        | 1/560 [00:00<08:02,  1.16it/s]Traceback (most recent call last):
+  File "/home/kunalkushwahatg/Research/src/pretraining/train.py", line 93, in <module>
+    trainer.train()
+  File "/home/kunalkushwahatg/anaconda3/envs/research/lib/python3.10/site-packages/transformers/trainer.py", line 1885, in train
+    return inner_training_loop(
+  File "/home/kunalkushwahatg/anaconda3/envs/research/lib/python3.10/site-packages/transformers/trainer.py", line 2216, in _inner_training_loop
+    tr_loss_step = self.training_step(model, inputs)
+  File "/home/kunalkushwahatg/anaconda3/envs/research/lib/python3.10/site-packages/transformers/trainer.py", line 3238, in training_step
+    loss = self.compute_loss(model, inputs)
+  File "/home/kunalkushwahatg/anaconda3/envs/research/lib/python3.10/site-packages/transformers/trainer.py", line 3264, in compute_loss
+    outputs = model(**inputs)
+  File "/home/kunalkushwahatg/anaconda3/envs/research/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/kunalkushwahatg/anaconda3/envs/research/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/kunalkushwahatg/anaconda3/envs/research/lib/python3.10/site-packages/transformers/models/gpt2/modeling_gpt2.py", line 1335, in forward
+    loss = loss_fct(shift_logits.view(-1, shift_logits.size(-1)), shift_labels.view(-1))
+  File "/home/kunalkushwahatg/anaconda3/envs/research/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/home/kunalkushwahatg/anaconda3/envs/research/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/kunalkushwahatg/anaconda3/envs/research/lib/python3.10/site-packages/torch/nn/modules/loss.py", line 1185, in forward
+    return F.cross_entropy(input, target, weight=self.weight,
+  File "/home/kunalkushwahatg/anaconda3/envs/research/lib/python3.10/site-packages/torch/nn/functional.py", line 3086, in cross_entropy
+    return torch._C._nn.cross_entropy_loss(input, target, weight, _Reduction.get_enum(reduction), ignore_index, label_smoothing)
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 196.00 MiB. GPU

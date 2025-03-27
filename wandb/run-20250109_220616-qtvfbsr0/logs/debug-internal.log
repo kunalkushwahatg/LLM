@@ -1,0 +1,15 @@
+{"time":"2025-01-09T22:06:20.079487971+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"/home/kunalkushwahatg/Research/wandb/run-20250109_220616-qtvfbsr0/logs/debug-core.log"}
+{"time":"2025-01-09T22:06:20.580380056+05:30","level":"INFO","msg":"created new stream","id":"qtvfbsr0"}
+{"time":"2025-01-09T22:06:20.580503625+05:30","level":"INFO","msg":"stream: started","id":"qtvfbsr0"}
+{"time":"2025-01-09T22:06:20.580564309+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"qtvfbsr0"}
+{"time":"2025-01-09T22:06:20.580684263+05:30","level":"INFO","msg":"handler: started","stream_id":"qtvfbsr0"}
+{"time":"2025-01-09T22:06:20.581429163+05:30","level":"INFO","msg":"sender: started","stream_id":"qtvfbsr0"}
+{"time":"2025-01-09T22:06:22.153370286+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-09T22:06:28.570394811+05:30","level":"INFO","msg":"stream: closing","id":"qtvfbsr0"}
+{"time":"2025-01-09T22:06:28.593149525+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-09T22:06:28.594572682+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-09T22:06:30.659089211+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-09T22:06:31.47594619+05:30","level":"INFO","msg":"handler: closed","stream_id":"qtvfbsr0"}
+{"time":"2025-01-09T22:06:31.476053968+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"qtvfbsr0"}
+{"time":"2025-01-09T22:06:31.476280852+05:30","level":"INFO","msg":"sender: closed","stream_id":"qtvfbsr0"}
+{"time":"2025-01-09T22:06:31.476316791+05:30","level":"INFO","msg":"stream: closed","id":"qtvfbsr0"}

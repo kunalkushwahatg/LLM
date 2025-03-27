@@ -1,0 +1,16 @@
+
+{
+    "tokenizer_name": "gpt2",
+    "max_length": 128,
+    "batch_size": 16,
+    "validation_ratio": 0.1,
+    "dataset_source": "/home/kunalkushwahatg/Research/data/raw/shakespeare.txt",
+    "pretraining_type": "clm",
+    "mlm_probability": 0.15,
+    "debug": false,
+    "debug_ratio": 0.001,
+    "model_name" : "gpt2",
+    "dataset_name" : "shakespeare",
+    "chunk_size": 128,
+    "preprocessed_dataset_path": "/home/kunalkushwahatg/Research/data/shakespeare_preprocessed.txt"
+}

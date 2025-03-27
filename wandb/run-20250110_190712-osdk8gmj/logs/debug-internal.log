@@ -1,0 +1,15 @@
+{"time":"2025-01-10T19:07:13.357116105+05:30","level":"INFO","msg":"stream: starting","core version":"0.19.2","symlink path":"/home/kunalkushwahatg/Research/wandb/run-20250110_190712-osdk8gmj/logs/debug-core.log"}
+{"time":"2025-01-10T19:07:13.474222918+05:30","level":"INFO","msg":"created new stream","id":"osdk8gmj"}
+{"time":"2025-01-10T19:07:13.474300537+05:30","level":"INFO","msg":"stream: started","id":"osdk8gmj"}
+{"time":"2025-01-10T19:07:13.474352823+05:30","level":"INFO","msg":"writer: Do: started","stream_id":"osdk8gmj"}
+{"time":"2025-01-10T19:07:13.474414625+05:30","level":"INFO","msg":"sender: started","stream_id":"osdk8gmj"}
+{"time":"2025-01-10T19:07:13.474613473+05:30","level":"INFO","msg":"handler: started","stream_id":"osdk8gmj"}
+{"time":"2025-01-10T19:07:14.227499002+05:30","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-01-10T19:07:21.390374707+05:30","level":"INFO","msg":"stream: closing","id":"osdk8gmj"}
+{"time":"2025-01-10T19:07:21.390500518+05:30","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-01-10T19:07:21.391748596+05:30","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-01-10T19:07:22.60609241+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-01-10T19:07:23.064657417+05:30","level":"INFO","msg":"handler: closed","stream_id":"osdk8gmj"}
+{"time":"2025-01-10T19:07:23.064783544+05:30","level":"INFO","msg":"writer: Close: closed","stream_id":"osdk8gmj"}
+{"time":"2025-01-10T19:07:23.064873324+05:30","level":"INFO","msg":"sender: closed","stream_id":"osdk8gmj"}
+{"time":"2025-01-10T19:07:23.064952898+05:30","level":"INFO","msg":"stream: closed","id":"osdk8gmj"}
